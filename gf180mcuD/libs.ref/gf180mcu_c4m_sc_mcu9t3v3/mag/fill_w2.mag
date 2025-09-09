@@ -1,0 +1,15 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1755615451
+<< nwell >>
+rect -43 340 271 743
+<< metal1 >>
+rect 0 566 228 700
+rect 0 0 228 134
+<< labels >>
+rlabel metal1 s 0 566 228 700 4 vdd
+port 3 nsew
+rlabel metal1 s 0 0 228 134 4 vss
+port 5 nsew
+<< end >>

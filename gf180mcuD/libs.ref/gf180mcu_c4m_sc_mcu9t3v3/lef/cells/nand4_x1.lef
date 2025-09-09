@@ -1,0 +1,64 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO nand4_x1
+  CLASS BLOCK ;
+  FOREIGN nand4_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 2.365800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 4.445800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN i0
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN nq
+    ANTENNADIFFAREA 2.983000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.025 3.990 3.670 5.430 ;
+        RECT 3.410 1.570 3.670 3.990 ;
+    END
+  END nq
+  PIN i1
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 1.570 1.430 3.760 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 1.570 2.230 3.760 ;
+    END
+  END i2
+  PIN i3
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.770 1.570 3.030 3.760 ;
+    END
+  END i3
+END nand4_x1
+END LIBRARY
+

@@ -1,0 +1,41 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO one_x1
+  CLASS BLOCK ;
+  FOREIGN one_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.399800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN one
+    ANTENNAGATEAREA 0.432600 ;
+    ANTENNADIFFAREA 0.767800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END one
+  PIN vdd
+    ANTENNADIFFAREA 1.487800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  OBS
+      LAYER Metal1 ;
+        RECT 1.010 2.155 1.270 3.900 ;
+        RECT 1.025 1.570 1.255 2.155 ;
+  END
+END one_x1
+END LIBRARY
+

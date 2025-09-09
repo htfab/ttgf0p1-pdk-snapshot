@@ -1,0 +1,28 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO tie_poly
+  CLASS BLOCK ;
+  FOREIGN tie_poly ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 2.000 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 0.309600 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 1.570 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 1.140 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 0.309600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 1.140 1.340 ;
+    END
+  END vss
+END tie_poly
+END LIBRARY
+

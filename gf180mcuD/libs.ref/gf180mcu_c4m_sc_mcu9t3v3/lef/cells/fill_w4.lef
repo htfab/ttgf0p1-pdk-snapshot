@@ -1,0 +1,28 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO fill_w4
+  CLASS BLOCK ;
+  FOREIGN fill_w4 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vdd
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN vss
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  OBS
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+  END
+END fill_w4
+END LIBRARY
+

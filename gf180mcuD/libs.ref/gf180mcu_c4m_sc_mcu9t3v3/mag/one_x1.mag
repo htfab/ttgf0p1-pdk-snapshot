@@ -1,0 +1,99 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755615451
+<< nwell >>
+rect -86 680 542 1486
+<< nmos >>
+rect 120 209 176 518
+<< pmos >>
+rect 120 842 176 1191
+<< ndiff >>
+rect 32 268 120 518
+rect 32 222 45 268
+rect 91 222 120 268
+rect 32 209 120 222
+rect 176 488 264 518
+rect 176 342 205 488
+rect 251 342 264 488
+rect 176 209 264 342
+<< pdiff >>
+rect 32 1038 120 1191
+rect 32 892 45 1038
+rect 91 892 120 1038
+rect 32 842 120 892
+rect 176 1178 264 1191
+rect 176 1132 205 1178
+rect 251 1132 264 1178
+rect 176 842 264 1132
+<< ndiffc >>
+rect 45 222 91 268
+rect 205 342 251 488
+<< pdiffc >>
+rect 45 892 91 1038
+rect 205 1132 251 1178
+<< psubdiff >>
+rect 28 87 428 100
+rect 28 41 55 87
+rect 401 41 428 87
+rect 28 28 428 41
+<< nsubdiff >>
+rect 28 1359 428 1372
+rect 28 1313 55 1359
+rect 401 1313 428 1359
+rect 28 1300 428 1313
+<< psubdiffcont >>
+rect 55 41 401 87
+<< nsubdiffcont >>
+rect 55 1313 401 1359
+<< polysilicon >>
+rect 120 1191 176 1235
+rect 120 782 176 842
+rect 120 769 264 782
+rect 120 723 205 769
+rect 251 723 264 769
+rect 120 710 264 723
+rect 32 637 176 650
+rect 32 591 45 637
+rect 91 591 176 637
+rect 32 578 176 591
+rect 120 518 176 578
+rect 120 165 176 209
+<< polycontact >>
+rect 205 723 251 769
+rect 45 591 91 637
+<< metal1 >>
+rect 0 1359 456 1400
+rect 0 1313 55 1359
+rect 401 1313 456 1359
+rect 0 1178 456 1313
+rect 0 1132 205 1178
+rect 251 1132 456 1178
+rect 42 1038 94 1086
+rect 42 892 45 1038
+rect 91 892 94 1038
+rect 42 637 94 892
+rect 42 591 45 637
+rect 91 591 94 637
+rect 42 314 94 591
+rect 202 769 254 780
+rect 202 723 205 769
+rect 251 723 254 769
+rect 202 488 254 723
+rect 202 431 205 488
+rect 251 431 254 488
+rect 205 314 251 342
+rect 0 222 45 268
+rect 91 222 456 268
+rect 0 87 456 222
+rect 0 41 55 87
+rect 401 41 456 87
+rect 0 0 456 41
+<< labels >>
+rlabel metal1 s 0 0 456 268 4 vss
+port 3 nsew
+rlabel metal1 s 42 314 94 1086 4 one
+port 5 nsew
+rlabel metal1 s 0 1132 456 1400 4 vdd
+port 7 nsew
+<< end >>

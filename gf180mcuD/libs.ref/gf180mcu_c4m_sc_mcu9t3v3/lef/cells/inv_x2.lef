@@ -1,0 +1,42 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO inv_x2
+  CLASS BLOCK ;
+  FOREIGN inv_x2 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 2.370000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 2.546000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 2.054000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.010 1.570 1.270 5.430 ;
+    END
+  END nq
+  PIN i
+    ANTENNAGATEAREA 2.212000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i
+END inv_x2
+END LIBRARY
+

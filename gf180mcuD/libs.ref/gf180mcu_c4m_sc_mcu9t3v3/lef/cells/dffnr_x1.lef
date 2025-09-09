@@ -1,0 +1,90 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO dffnr_x1
+  CLASS BLOCK ;
+  FOREIGN dffnr_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 15.680 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 7.806200 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 15.250 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 14.820 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 7.260600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 14.820 1.340 ;
+    END
+  END vss
+  PIN clk
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 1.570 0.960 5.430 ;
+    END
+  END clk
+  PIN i
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.460 2.140 2.720 4.860 ;
+    END
+  END i
+  PIN nrst
+    ANTENNAGATEAREA 0.985600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 7.900 2.580 8.160 4.860 ;
+        RECT 7.900 2.240 11.250 2.580 ;
+        RECT 7.900 2.140 8.160 2.240 ;
+    END
+  END nrst
+  PIN q
+    ANTENNAGATEAREA 0.492800 ;
+    ANTENNADIFFAREA 0.866800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 12.560 4.985 14.135 5.430 ;
+        RECT 12.560 1.915 12.820 4.985 ;
+        RECT 12.560 1.570 14.135 1.915 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+        RECT 1.810 3.240 2.070 5.430 ;
+        RECT 2.625 5.090 3.830 5.430 ;
+        RECT 5.025 5.090 7.030 5.430 ;
+        RECT 1.810 2.900 2.215 3.240 ;
+        RECT 1.810 1.570 2.070 2.900 ;
+        RECT 3.570 1.910 3.830 5.090 ;
+        RECT 4.385 4.220 5.120 4.560 ;
+        RECT 4.370 2.240 4.630 3.900 ;
+        RECT 4.860 2.900 5.120 4.220 ;
+        RECT 5.350 1.910 5.610 5.090 ;
+        RECT 2.625 1.570 3.830 1.910 ;
+        RECT 5.025 1.570 5.610 1.910 ;
+        RECT 5.970 1.910 6.230 4.560 ;
+        RECT 6.770 2.240 7.030 5.090 ;
+        RECT 7.410 5.090 8.650 5.430 ;
+        RECT 9.025 5.090 12.315 5.430 ;
+        RECT 7.410 1.910 7.670 5.090 ;
+        RECT 8.390 4.770 8.650 5.090 ;
+        RECT 8.390 4.430 10.055 4.770 ;
+        RECT 11.065 4.430 11.740 4.770 ;
+        RECT 8.390 3.560 11.235 3.900 ;
+        RECT 8.390 2.900 8.650 3.560 ;
+        RECT 11.480 1.910 11.740 4.430 ;
+        RECT 5.970 1.570 8.455 1.910 ;
+        RECT 9.825 1.570 11.740 1.910 ;
+  END
+END dffnr_x1
+END LIBRARY
+

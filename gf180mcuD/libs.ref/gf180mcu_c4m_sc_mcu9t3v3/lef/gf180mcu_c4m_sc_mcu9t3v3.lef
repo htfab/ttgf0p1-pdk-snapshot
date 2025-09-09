@@ -1,0 +1,2434 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO and21nor_x0
+  CLASS CORE ;
+  FOREIGN and21nor_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 2.063200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.588000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 4.860 ;
+    END
+  END i0
+  PIN nq
+    ANTENNADIFFAREA 1.003200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.790 1.910 3.050 5.430 ;
+        RECT 1.825 1.570 3.050 1.910 ;
+    END
+  END nq
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 1.570 1.430 4.860 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.300 2.140 2.560 5.430 ;
+    END
+  END i2
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 5.090 2.055 5.430 ;
+  END
+END and21nor_x0
+
+
+MACRO and21nor_x1
+  CLASS CORE ;
+  FOREIGN and21nor_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 3.117900 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 2.209400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN i0
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 3.760 ;
+    END
+  END i0
+  PIN nq
+    ANTENNADIFFAREA 2.261500 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.790 2.910 3.050 5.430 ;
+        RECT 1.825 1.570 3.050 2.910 ;
+    END
+  END nq
+  PIN i1
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 1.570 1.430 3.760 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.300 3.140 2.560 5.430 ;
+    END
+  END i2
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 3.990 2.055 5.430 ;
+  END
+END and21nor_x1
+
+
+MACRO and2_x1
+  CLASS CORE ;
+  FOREIGN and2_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 2.694600 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 2.219400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 2.140 0.470 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 2.140 1.430 4.860 ;
+    END
+  END i1
+  PIN q
+    ANTENNADIFFAREA 1.738000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.830 1.570 3.090 5.430 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 1.025 5.090 2.230 5.430 ;
+        RECT 1.970 1.910 2.230 5.090 ;
+        RECT 0.225 1.570 2.230 1.910 ;
+  END
+END and2_x1
+
+
+MACRO and3_x1
+  CLASS CORE ;
+  FOREIGN and3_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 3.175400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 2.629800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 2.140 0.470 4.860 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 2.140 1.430 4.860 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 2.140 2.230 4.860 ;
+    END
+  END i2
+  PIN q
+    ANTENNADIFFAREA 1.738000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.630 1.570 3.890 5.430 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 5.090 3.030 5.430 ;
+        RECT 2.770 1.910 3.030 5.090 ;
+        RECT 0.225 1.570 3.030 1.910 ;
+  END
+END and3_x1
+
+
+MACRO and4_x1
+  CLASS CORE ;
+  FOREIGN and4_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 6.560 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 3.973000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 6.130 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 5.700 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 3.040200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 5.700 1.340 ;
+    END
+  END vss
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 2.140 0.470 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 2.140 1.430 4.860 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 2.140 2.230 4.860 ;
+    END
+  END i2
+  PIN i3
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.770 2.140 3.030 4.860 ;
+    END
+  END i3
+  PIN q
+    ANTENNADIFFAREA 1.738000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 4.430 1.570 4.690 5.430 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 1.025 5.090 3.830 5.430 ;
+        RECT 3.570 1.910 3.830 5.090 ;
+        RECT 0.225 1.570 3.830 1.910 ;
+  END
+END and4_x1
+
+
+MACRO buf_x1
+  CLASS CORE ;
+  FOREIGN buf_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 2.017000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 1.929000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN i
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 1.570 0.960 5.430 ;
+    END
+  END i
+  PIN q
+    ANTENNADIFFAREA 1.157200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.030 1.570 2.290 5.430 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+  END
+END buf_x1
+
+
+MACRO buf_x2
+  CLASS CORE ;
+  FOREIGN buf_x2 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 2.639600 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 2.463600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN i
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 1.570 0.960 5.430 ;
+    END
+  END i
+  PIN q
+    ANTENNADIFFAREA 1.367600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.030 1.570 2.290 5.430 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+  END
+END buf_x2
+
+
+MACRO buf_x4
+  CLASS CORE ;
+  FOREIGN buf_x4 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 6.560 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 4.045400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 6.130 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 5.700 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 3.749400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 5.700 1.340 ;
+    END
+  END vss
+  PIN i
+    ANTENNAGATEAREA 0.736400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 1.570 0.960 5.430 ;
+    END
+  END i
+  PIN q
+    ANTENNADIFFAREA 2.735200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.810 3.570 2.070 5.430 ;
+        RECT 3.425 4.910 3.655 5.430 ;
+        RECT 3.410 3.570 3.670 4.910 ;
+        RECT 1.810 3.230 3.670 3.570 ;
+        RECT 1.810 1.570 2.070 3.230 ;
+        RECT 3.410 1.740 3.670 3.230 ;
+        RECT 3.425 1.570 3.655 1.740 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 4.910 0.455 5.430 ;
+        RECT 0.210 1.740 0.470 4.910 ;
+        RECT 0.225 1.570 0.455 1.740 ;
+  END
+END buf_x4
+
+
+MACRO decap_w0
+  CLASS CORE ;
+  FOREIGN decap_w0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.399800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.487800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 4.745 0.455 5.430 ;
+        RECT 0.210 2.900 0.470 4.745 ;
+        RECT 1.010 2.155 1.270 3.900 ;
+        RECT 1.025 1.570 1.255 2.155 ;
+  END
+END decap_w0
+
+
+MACRO dffnr_x1
+  CLASS CORE ;
+  FOREIGN dffnr_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 15.680 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 7.806200 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 15.250 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 14.820 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 7.260600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 14.820 1.340 ;
+    END
+  END vss
+  PIN clk
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 1.570 0.960 5.430 ;
+    END
+  END clk
+  PIN i
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.460 2.140 2.720 4.860 ;
+    END
+  END i
+  PIN nrst
+    ANTENNAGATEAREA 0.985600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 7.900 2.580 8.160 4.860 ;
+        RECT 7.900 2.240 11.250 2.580 ;
+        RECT 7.900 2.140 8.160 2.240 ;
+    END
+  END nrst
+  PIN q
+    ANTENNAGATEAREA 0.492800 ;
+    ANTENNADIFFAREA 0.866800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 12.560 4.985 14.135 5.430 ;
+        RECT 12.560 1.915 12.820 4.985 ;
+        RECT 12.560 1.570 14.135 1.915 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+        RECT 1.810 3.240 2.070 5.430 ;
+        RECT 2.625 5.090 3.830 5.430 ;
+        RECT 5.025 5.090 7.030 5.430 ;
+        RECT 1.810 2.900 2.215 3.240 ;
+        RECT 1.810 1.570 2.070 2.900 ;
+        RECT 3.570 1.910 3.830 5.090 ;
+        RECT 4.385 4.220 5.120 4.560 ;
+        RECT 4.370 2.240 4.630 3.900 ;
+        RECT 4.860 2.900 5.120 4.220 ;
+        RECT 5.350 1.910 5.610 5.090 ;
+        RECT 2.625 1.570 3.830 1.910 ;
+        RECT 5.025 1.570 5.610 1.910 ;
+        RECT 5.970 1.910 6.230 4.560 ;
+        RECT 6.770 2.240 7.030 5.090 ;
+        RECT 7.410 5.090 8.650 5.430 ;
+        RECT 9.025 5.090 12.315 5.430 ;
+        RECT 7.410 1.910 7.670 5.090 ;
+        RECT 8.390 4.770 8.650 5.090 ;
+        RECT 8.390 4.430 10.055 4.770 ;
+        RECT 11.065 4.430 11.740 4.770 ;
+        RECT 8.390 3.560 11.235 3.900 ;
+        RECT 8.390 2.900 8.650 3.560 ;
+        RECT 11.480 1.910 11.740 4.430 ;
+        RECT 5.970 1.570 8.455 1.910 ;
+        RECT 9.825 1.570 11.740 1.910 ;
+  END
+END dffnr_x1
+
+
+MACRO dff_x1
+  CLASS CORE ;
+  FOREIGN dff_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 12.260 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 6.117400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 11.830 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 11.400 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 6.029400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 11.400 1.340 ;
+    END
+  END vss
+  PIN clk
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 1.570 0.960 5.430 ;
+    END
+  END clk
+  PIN i
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.460 2.140 2.720 4.860 ;
+    END
+  END i
+  PIN q
+    ANTENNAGATEAREA 0.492800 ;
+    ANTENNADIFFAREA 0.866800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 9.370 4.985 11.075 5.430 ;
+        RECT 9.370 1.915 9.630 4.985 ;
+        RECT 9.370 1.570 11.075 1.915 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+        RECT 1.810 3.240 2.070 5.430 ;
+        RECT 2.625 5.090 3.830 5.430 ;
+        RECT 5.025 5.090 7.030 5.430 ;
+        RECT 1.810 2.900 2.215 3.240 ;
+        RECT 1.810 1.570 2.070 2.900 ;
+        RECT 3.570 1.910 3.830 5.090 ;
+        RECT 4.385 4.220 5.120 4.560 ;
+        RECT 4.370 2.240 4.630 3.900 ;
+        RECT 4.860 2.900 5.120 4.220 ;
+        RECT 5.350 1.910 5.610 5.090 ;
+        RECT 2.625 1.570 3.830 1.910 ;
+        RECT 5.025 1.570 5.610 1.910 ;
+        RECT 5.970 1.910 6.230 4.560 ;
+        RECT 6.770 2.240 7.030 5.090 ;
+        RECT 7.410 1.910 7.670 5.430 ;
+        RECT 8.225 5.090 9.140 5.430 ;
+        RECT 7.900 4.220 8.615 4.560 ;
+        RECT 7.900 2.900 8.160 4.220 ;
+        RECT 8.390 2.240 8.650 3.900 ;
+        RECT 8.880 1.910 9.140 5.090 ;
+        RECT 5.970 1.570 7.670 1.910 ;
+        RECT 8.225 1.570 9.140 1.910 ;
+  END
+END dff_x1
+
+
+MACRO diode_w1
+  CLASS CORE ;
+  FOREIGN diode_w1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 2.000 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 0.309600 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 1.570 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 1.140 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 0.309600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 1.140 1.340 ;
+    END
+  END vss
+  PIN i
+    ANTENNADIFFAREA 1.080000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.400 3.830 0.740 5.430 ;
+        RECT 0.440 2.970 0.700 3.830 ;
+        RECT 0.400 1.570 0.740 2.970 ;
+    END
+  END i
+END diode_w1
+
+
+MACRO fill
+  CLASS CORE ;
+  FOREIGN fill ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 2.000 BY 7.430 ;
+  PIN vdd
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 5.660 1.140 7.000 ;
+    END
+  END vdd
+  PIN vss
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 1.140 1.340 ;
+    END
+  END vss
+  OBS
+      LAYER Nwell ;
+        RECT -0.430 3.400 1.570 7.430 ;
+  END
+END fill
+
+
+MACRO fill_w2
+  CLASS CORE ;
+  FOREIGN fill_w2 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vdd
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN vss
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  OBS
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+  END
+END fill_w2
+
+
+MACRO fill_w4
+  CLASS CORE ;
+  FOREIGN fill_w4 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vdd
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN vss
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  OBS
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+  END
+END fill_w4
+
+
+MACRO inv_x0
+  CLASS CORE ;
+  FOREIGN inv_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.107200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.107200 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 0.774400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.010 1.570 1.270 5.430 ;
+    END
+  END nq
+  PIN i
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i
+END inv_x0
+
+
+MACRO inv_x1
+  CLASS CORE ;
+  FOREIGN inv_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.545000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.633000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 1.738000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.010 1.570 1.270 5.430 ;
+    END
+  END nq
+  PIN i
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i
+END inv_x1
+
+
+MACRO inv_x2
+  CLASS CORE ;
+  FOREIGN inv_x2 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 2.370000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 2.546000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 2.054000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.010 1.570 1.270 5.430 ;
+    END
+  END nq
+  PIN i
+    ANTENNAGATEAREA 2.212000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i
+END inv_x2
+
+
+MACRO inv_x4
+  CLASS CORE ;
+  FOREIGN inv_x4 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 4.165800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 4.445800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 4.108000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.010 3.570 1.270 5.430 ;
+        RECT 2.625 4.330 2.855 5.430 ;
+        RECT 2.610 3.570 2.870 4.330 ;
+        RECT 1.010 3.230 2.870 3.570 ;
+        RECT 1.010 1.570 1.270 3.230 ;
+        RECT 2.610 2.570 2.870 3.230 ;
+        RECT 2.625 1.570 2.855 2.570 ;
+    END
+  END nq
+  PIN i
+    ANTENNAGATEAREA 4.424000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i
+END inv_x4
+
+
+MACRO mux2_x1
+  CLASS CORE ;
+  FOREIGN mux2_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 6.560 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 3.295400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 6.130 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 5.700 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 3.207400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 5.700 1.340 ;
+    END
+  END vss
+  PIN cmd
+    ANTENNAGATEAREA 0.985600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 2.140 0.960 5.430 ;
+    END
+  END cmd
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.190 2.140 1.450 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.570 2.140 3.830 4.860 ;
+    END
+  END i1
+  PIN q
+    ANTENNADIFFAREA 1.157200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 5.230 1.570 5.490 5.430 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.210 1.910 0.470 5.430 ;
+        RECT 2.625 5.090 4.630 5.430 ;
+        RECT 1.970 3.890 3.015 4.230 ;
+        RECT 1.970 1.910 2.230 3.890 ;
+        RECT 4.370 1.910 4.630 5.090 ;
+        RECT 0.210 1.570 2.230 1.910 ;
+        RECT 2.625 1.570 4.630 1.910 ;
+  END
+END mux2_x1
+
+
+MACRO nand2_x0
+  CLASS CORE ;
+  FOREIGN nand2_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.107200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.494400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN nq
+    ANTENNADIFFAREA 0.844800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.025 5.090 2.070 5.430 ;
+        RECT 1.810 1.570 2.070 5.090 ;
+    END
+  END nq
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 1.570 1.430 4.860 ;
+    END
+  END i1
+END nand2_x0
+
+
+MACRO nand2_x1
+  CLASS CORE ;
+  FOREIGN nand2_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.545000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 2.546000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN i0
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN nq
+    ANTENNADIFFAREA 1.904000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.025 3.990 2.070 5.430 ;
+        RECT 1.810 1.570 2.070 3.990 ;
+    END
+  END nq
+  PIN i1
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 1.570 1.430 3.760 ;
+    END
+  END i1
+END nand2_x1
+
+
+MACRO nand3_x0
+  CLASS CORE ;
+  FOREIGN nand3_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.517600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.975200 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN nq
+    ANTENNADIFFAREA 1.232000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.025 5.090 2.870 5.430 ;
+        RECT 2.610 1.570 2.870 5.090 ;
+    END
+  END nq
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 1.570 1.430 4.860 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 1.570 2.230 4.860 ;
+    END
+  END i2
+END nand3_x0
+
+
+MACRO nand3_x1
+  CLASS CORE ;
+  FOREIGN nand3_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.955400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 3.122400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN i0
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN nq
+    ANTENNADIFFAREA 2.817000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.025 3.990 2.870 5.430 ;
+        RECT 2.610 1.570 2.870 3.990 ;
+    END
+  END nq
+  PIN i1
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 1.570 1.430 3.760 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 1.570 2.230 3.760 ;
+    END
+  END i2
+END nand3_x1
+
+
+MACRO nand4_x0
+  CLASS CORE ;
+  FOREIGN nand4_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.928000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 2.772800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN nq
+    ANTENNADIFFAREA 1.302400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.025 5.090 3.670 5.430 ;
+        RECT 3.410 1.570 3.670 5.090 ;
+    END
+  END nq
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 1.570 1.430 4.860 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 1.570 2.230 4.860 ;
+    END
+  END i2
+  PIN i3
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.770 1.570 3.030 4.860 ;
+    END
+  END i3
+END nand4_x0
+
+
+MACRO nand4_x1
+  CLASS CORE ;
+  FOREIGN nand4_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 2.365800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 4.445800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN i0
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN nq
+    ANTENNADIFFAREA 2.983000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.025 3.990 3.670 5.430 ;
+        RECT 3.410 1.570 3.670 3.990 ;
+    END
+  END nq
+  PIN i1
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 1.570 1.430 3.760 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 1.570 2.230 3.760 ;
+    END
+  END i2
+  PIN i3
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.770 1.570 3.030 3.760 ;
+    END
+  END i3
+END nand4_x1
+
+
+MACRO nexor2_x0
+  CLASS CORE ;
+  FOREIGN nexor2_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 7.700 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 3.276800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 7.270 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 6.840 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 3.276800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 6.840 1.340 ;
+    END
+  END vss
+  PIN i0
+    ANTENNAGATEAREA 0.985600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 1.570 0.960 5.430 ;
+    END
+  END i0
+  PIN q
+    ANTENNADIFFAREA 1.925400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.190 4.770 1.450 4.860 ;
+        RECT 1.190 4.430 3.075 4.770 ;
+        RECT 1.190 1.910 1.450 4.430 ;
+        RECT 1.190 1.570 3.075 1.910 ;
+    END
+  END q
+  PIN i1
+    ANTENNAGATEAREA 0.985600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 4.810 2.580 5.070 5.430 ;
+        RECT 1.985 2.240 5.070 2.580 ;
+        RECT 4.810 1.570 5.070 2.240 ;
+    END
+  END i1
+  OBS
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+        RECT 1.825 5.090 4.095 5.430 ;
+        RECT 1.985 3.560 4.270 3.900 ;
+        RECT 4.010 2.900 4.270 3.560 ;
+        RECT 5.450 1.570 5.710 5.430 ;
+  END
+END nexor2_x0
+
+
+MACRO nor2_x0
+  CLASS CORE ;
+  FOREIGN nor2_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.494400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.107200 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 0.844800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.810 1.910 2.070 5.430 ;
+        RECT 1.025 1.570 2.070 1.910 ;
+    END
+  END nq
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 2.140 1.430 5.430 ;
+    END
+  END i1
+END nor2_x0
+
+
+MACRO nor2_x1
+  CLASS CORE ;
+  FOREIGN nor2_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 2.370000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.633000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 1.888000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.810 2.910 2.070 5.430 ;
+        RECT 1.025 1.570 2.070 2.910 ;
+    END
+  END nq
+  PIN i0
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 3.140 1.430 5.430 ;
+    END
+  END i1
+END nor2_x1
+
+
+MACRO nor3_x0
+  CLASS CORE ;
+  FOREIGN nor3_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.975200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.517600 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 1.232000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.610 1.910 2.870 5.430 ;
+        RECT 1.025 1.570 2.870 1.910 ;
+    END
+  END nq
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 2.140 1.430 5.430 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 2.140 2.230 5.430 ;
+    END
+  END i2
+END nor3_x0
+
+
+MACRO nor3_x1
+  CLASS CORE ;
+  FOREIGN nor3_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 2.930400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 2.043400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 2.713000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.610 2.910 2.870 5.430 ;
+        RECT 1.025 1.570 2.870 2.910 ;
+    END
+  END nq
+  PIN i0
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 3.140 1.430 5.430 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 3.140 2.230 5.430 ;
+    END
+  END i2
+END nor3_x1
+
+
+MACRO nor4_x0
+  CLASS CORE ;
+  FOREIGN nor4_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 2.772800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.928000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 1.302400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.410 1.910 3.670 5.430 ;
+        RECT 1.025 1.570 3.670 1.910 ;
+    END
+  END nq
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 2.140 1.430 5.430 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 2.140 2.230 5.430 ;
+    END
+  END i2
+  PIN i3
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.770 2.140 3.030 5.430 ;
+    END
+  END i3
+END nor4_x0
+
+
+MACRO nor4_x1
+  CLASS CORE ;
+  FOREIGN nor4_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 4.165800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 2.453800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 2.863000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.410 2.910 3.670 5.430 ;
+        RECT 1.025 1.570 3.670 2.910 ;
+    END
+  END nq
+  PIN i0
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 3.140 1.430 5.430 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 3.140 2.230 5.430 ;
+    END
+  END i2
+  PIN i3
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.770 3.140 3.030 5.430 ;
+    END
+  END i3
+END nor4_x1
+
+
+MACRO nsnrlatch_x0
+  CLASS CORE ;
+  FOREIGN nsnrlatch_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN q
+    ANTENNAGATEAREA 0.492800 ;
+    ANTENNADIFFAREA 0.844800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 5.090 1.255 5.430 ;
+        RECT 0.700 3.900 0.960 5.090 ;
+        RECT 0.700 3.560 2.215 3.900 ;
+        RECT 0.700 1.910 0.960 3.560 ;
+        RECT 0.225 1.570 0.960 1.910 ;
+    END
+  END q
+  PIN vdd
+    ANTENNADIFFAREA 2.772800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 1.998400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN nset
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 2.140 0.470 5.430 ;
+    END
+  END nset
+  PIN nq
+    ANTENNAGATEAREA 0.492800 ;
+    ANTENNADIFFAREA 0.844800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.610 3.240 2.870 5.430 ;
+        RECT 1.205 2.900 2.870 3.240 ;
+        RECT 2.610 1.910 2.870 2.900 ;
+        RECT 2.610 1.570 3.655 1.910 ;
+    END
+  END nq
+  PIN nrst
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.100 2.140 3.360 5.430 ;
+    END
+  END nrst
+END nsnrlatch_x0
+
+
+MACRO nsnrlatch_x1
+  CLASS CORE ;
+  FOREIGN nsnrlatch_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN q
+    ANTENNAGATEAREA 0.921200 ;
+    ANTENNADIFFAREA 1.587200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 4.405 1.255 5.430 ;
+        RECT 0.700 3.900 0.960 4.405 ;
+        RECT 0.700 3.560 2.215 3.900 ;
+        RECT 0.700 2.495 0.960 3.560 ;
+        RECT 0.225 1.570 0.960 2.495 ;
+    END
+  END q
+  PIN vdd
+    ANTENNADIFFAREA 3.983800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 2.344200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN nset
+    ANTENNAGATEAREA 0.921200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 2.725 0.470 5.430 ;
+    END
+  END nset
+  PIN nq
+    ANTENNAGATEAREA 0.921200 ;
+    ANTENNADIFFAREA 1.587200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.610 3.240 2.870 5.430 ;
+        RECT 1.205 2.900 2.870 3.240 ;
+        RECT 2.610 2.495 2.870 2.900 ;
+        RECT 2.610 1.570 3.655 2.495 ;
+    END
+  END nq
+  PIN nrst
+    ANTENNAGATEAREA 0.921200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.100 2.725 3.360 5.430 ;
+    END
+  END nrst
+END nsnrlatch_x1
+
+
+MACRO one_x1
+  CLASS CORE ;
+  FOREIGN one_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.399800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN one
+    ANTENNAGATEAREA 0.432600 ;
+    ANTENNADIFFAREA 0.767800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END one
+  PIN vdd
+    ANTENNADIFFAREA 1.487800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  OBS
+      LAYER Metal1 ;
+        RECT 1.010 2.155 1.270 3.900 ;
+        RECT 1.025 1.570 1.255 2.155 ;
+  END
+END one_x1
+
+
+MACRO or21nand_x0
+  CLASS CORE ;
+  FOREIGN or21nand_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 2.063200 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 1.588000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 2.140 0.470 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 2.140 1.430 5.430 ;
+    END
+  END i1
+  PIN nq
+    ANTENNADIFFAREA 1.003200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.825 5.090 3.050 5.430 ;
+        RECT 2.790 1.570 3.050 5.090 ;
+    END
+  END nq
+  PIN i2
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.300 1.570 2.560 4.860 ;
+    END
+  END i2
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 1.570 2.055 1.910 ;
+  END
+END or21nand_x0
+
+
+MACRO or21nand_x1
+  CLASS CORE ;
+  FOREIGN or21nand_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 3.329900 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 2.105400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN i0
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 3.140 0.470 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 3.140 1.430 5.430 ;
+    END
+  END i1
+  PIN nq
+    ANTENNADIFFAREA 2.241500 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.825 3.990 3.050 5.430 ;
+        RECT 2.790 1.570 3.050 3.990 ;
+    END
+  END nq
+  PIN i2
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.300 1.570 2.560 3.760 ;
+    END
+  END i2
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 1.570 2.055 2.910 ;
+  END
+END or21nand_x1
+
+
+MACRO or2_x1
+  CLASS CORE ;
+  FOREIGN or2_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 2.606600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 2.307400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 4.860 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 2.140 1.430 4.860 ;
+    END
+  END i1
+  PIN q
+    ANTENNADIFFAREA 1.738000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.830 1.570 3.090 5.430 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 5.090 2.230 5.430 ;
+        RECT 1.970 1.910 2.230 5.090 ;
+        RECT 1.025 1.570 2.230 1.910 ;
+  END
+END or2_x1
+
+
+MACRO or3_x1
+  CLASS CORE ;
+  FOREIGN or3_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 2.717800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 3.087400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 2.140 0.470 4.860 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 2.140 1.430 4.860 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 2.140 2.230 4.860 ;
+    END
+  END i2
+  PIN q
+    ANTENNADIFFAREA 1.738000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.630 1.570 3.890 5.430 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 5.090 3.030 5.430 ;
+        RECT 2.770 1.910 3.030 5.090 ;
+        RECT 0.225 1.570 3.030 1.910 ;
+  END
+END or3_x1
+
+
+MACRO or4_x1
+  CLASS CORE ;
+  FOREIGN or4_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 6.560 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 3.885000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 5.700 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 3.128200 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 6.130 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 5.700 7.000 ;
+    END
+  END vdd
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 4.860 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 2.140 1.430 4.860 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 2.140 2.230 4.860 ;
+    END
+  END i2
+  PIN i3
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.770 2.140 3.030 4.860 ;
+    END
+  END i3
+  PIN q
+    ANTENNADIFFAREA 1.738000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 4.430 1.570 4.690 5.430 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 5.090 3.830 5.430 ;
+        RECT 3.570 1.910 3.830 5.090 ;
+        RECT 1.025 1.570 3.830 1.910 ;
+  END
+END or4_x1
+
+
+MACRO tie_diff
+  CLASS CORE ;
+  FOREIGN tie_diff ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 2.000 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 1.376400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 1.570 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 1.140 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 1.292400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 1.140 1.340 ;
+    END
+  END vss
+END tie_diff
+
+
+MACRO tie_diff_w2
+  CLASS CORE ;
+  FOREIGN tie_diff_w2 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 4.682400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 4.370400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+END tie_diff_w2
+
+
+MACRO tie_diff_w4
+  CLASS CORE ;
+  FOREIGN tie_diff_w4 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 11.294399 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 10.526400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+END tie_diff_w4
+
+
+MACRO tie
+  CLASS CORE ;
+  FOREIGN tie ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 2.000 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 0.309600 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 1.570 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 1.140 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 0.309600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 1.140 1.340 ;
+    END
+  END vss
+END tie
+
+
+MACRO tie_poly
+  CLASS CORE ;
+  FOREIGN tie_poly ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 2.000 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 0.309600 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 1.570 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 1.140 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 0.309600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 1.140 1.340 ;
+    END
+  END vss
+END tie_poly
+
+
+MACRO tie_poly_w2
+  CLASS CORE ;
+  FOREIGN tie_poly_w2 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 0.720000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 0.720000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+END tie_poly_w2
+
+
+MACRO tie_poly_w4
+  CLASS CORE ;
+  FOREIGN tie_poly_w4 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 1.540800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 1.540800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+END tie_poly_w4
+
+
+MACRO tie_w2
+  CLASS CORE ;
+  FOREIGN tie_w2 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 0.720000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 0.720000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+END tie_w2
+
+
+MACRO tie_w4
+  CLASS CORE ;
+  FOREIGN tie_w4 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 1.540800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 1.540800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+END tie_w4
+
+
+MACRO xor2_x0
+  CLASS CORE ;
+  FOREIGN xor2_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 7.700 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 3.276800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 7.270 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 6.840 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 3.276800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 6.840 1.340 ;
+    END
+  END vss
+  PIN i0
+    ANTENNAGATEAREA 0.985600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 1.570 0.960 5.430 ;
+    END
+  END i0
+  PIN q
+    ANTENNADIFFAREA 1.925400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.190 4.770 1.450 4.860 ;
+        RECT 1.190 4.430 3.075 4.770 ;
+        RECT 1.190 1.910 1.450 4.430 ;
+        RECT 1.190 1.570 3.075 1.910 ;
+    END
+  END q
+  PIN i1
+    ANTENNAGATEAREA 0.985600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 4.810 2.580 5.070 5.430 ;
+        RECT 1.985 2.240 5.070 2.580 ;
+        RECT 4.810 1.570 5.070 2.240 ;
+    END
+  END i1
+  OBS
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+        RECT 1.825 5.090 4.095 5.430 ;
+        RECT 1.985 3.560 4.270 3.900 ;
+        RECT 4.010 2.900 4.270 3.560 ;
+        RECT 5.450 1.570 5.710 5.430 ;
+  END
+END xor2_x0
+
+
+MACRO zeroone_x1
+  CLASS CORE ;
+  FOREIGN zeroone_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.399800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN one
+    ANTENNAGATEAREA 0.432600 ;
+    ANTENNADIFFAREA 0.767800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END one
+  PIN vdd
+    ANTENNADIFFAREA 1.487800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN zero
+    ANTENNAGATEAREA 0.488600 ;
+    ANTENNADIFFAREA 0.679800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.010 1.570 1.270 5.430 ;
+    END
+  END zero
+END zeroone_x1
+
+
+MACRO zero_x1
+  CLASS CORE ;
+  FOREIGN zero_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.399800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.487800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  PIN zero
+    ANTENNAGATEAREA 0.488600 ;
+    ANTENNADIFFAREA 0.679800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.010 1.570 1.270 5.430 ;
+    END
+  END zero
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 4.745 0.455 5.430 ;
+        RECT 0.210 2.900 0.470 4.745 ;
+  END
+END zero_x1
+END LIBRARY
+

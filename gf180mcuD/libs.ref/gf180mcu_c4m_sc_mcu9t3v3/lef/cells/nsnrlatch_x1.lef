@@ -1,0 +1,65 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO nsnrlatch_x1
+  CLASS BLOCK ;
+  FOREIGN nsnrlatch_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN q
+    ANTENNAGATEAREA 0.921200 ;
+    ANTENNADIFFAREA 1.587200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 4.405 1.255 5.430 ;
+        RECT 0.700 3.900 0.960 4.405 ;
+        RECT 0.700 3.560 2.215 3.900 ;
+        RECT 0.700 2.495 0.960 3.560 ;
+        RECT 0.225 1.570 0.960 2.495 ;
+    END
+  END q
+  PIN vdd
+    ANTENNADIFFAREA 3.983800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 2.344200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN nset
+    ANTENNAGATEAREA 0.921200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 2.725 0.470 5.430 ;
+    END
+  END nset
+  PIN nq
+    ANTENNAGATEAREA 0.921200 ;
+    ANTENNADIFFAREA 1.587200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.610 3.240 2.870 5.430 ;
+        RECT 1.205 2.900 2.870 3.240 ;
+        RECT 2.610 2.495 2.870 2.900 ;
+        RECT 2.610 1.570 3.655 2.495 ;
+    END
+  END nq
+  PIN nrst
+    ANTENNAGATEAREA 0.921200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.100 2.725 3.360 5.430 ;
+    END
+  END nrst
+END nsnrlatch_x1
+END LIBRARY
+

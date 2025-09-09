@@ -1,0 +1,35 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO decap_w0
+  CLASS BLOCK ;
+  FOREIGN decap_w0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 3.140 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 1.399800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 2.280 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 1.487800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 2.710 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 2.280 7.000 ;
+    END
+  END vdd
+  OBS
+      LAYER Metal1 ;
+        RECT 0.225 4.745 0.455 5.430 ;
+        RECT 0.210 2.900 0.470 4.745 ;
+        RECT 1.010 2.155 1.270 3.900 ;
+        RECT 1.025 1.570 1.255 2.155 ;
+  END
+END decap_w0
+END LIBRARY
+

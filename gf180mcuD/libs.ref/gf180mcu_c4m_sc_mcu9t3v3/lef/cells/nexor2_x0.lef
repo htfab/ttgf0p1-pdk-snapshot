@@ -1,0 +1,62 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO nexor2_x0
+  CLASS BLOCK ;
+  FOREIGN nexor2_x0 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 7.700 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 3.276800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 7.270 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 6.840 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 3.276800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 6.840 1.340 ;
+    END
+  END vss
+  PIN i0
+    ANTENNAGATEAREA 0.985600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 1.570 0.960 5.430 ;
+    END
+  END i0
+  PIN q
+    ANTENNADIFFAREA 1.925400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.190 4.770 1.450 4.860 ;
+        RECT 1.190 4.430 3.075 4.770 ;
+        RECT 1.190 1.910 1.450 4.430 ;
+        RECT 1.190 1.570 3.075 1.910 ;
+    END
+  END q
+  PIN i1
+    ANTENNAGATEAREA 0.985600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 4.810 2.580 5.070 5.430 ;
+        RECT 1.985 2.240 5.070 2.580 ;
+        RECT 4.810 1.570 5.070 2.240 ;
+    END
+  END i1
+  OBS
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+        RECT 1.825 5.090 4.095 5.430 ;
+        RECT 1.985 3.560 4.270 3.900 ;
+        RECT 4.010 2.900 4.270 3.560 ;
+        RECT 5.450 1.570 5.710 5.430 ;
+  END
+END nexor2_x0
+END LIBRARY
+

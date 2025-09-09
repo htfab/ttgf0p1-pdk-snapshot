@@ -1,0 +1,66 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO mux2_x1
+  CLASS BLOCK ;
+  FOREIGN mux2_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 6.560 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 3.295400 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 6.130 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 5.700 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 3.207400 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 5.700 1.340 ;
+    END
+  END vss
+  PIN cmd
+    ANTENNAGATEAREA 0.985600 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 2.140 0.960 5.430 ;
+    END
+  END cmd
+  PIN i0
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.190 2.140 1.450 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.570 2.140 3.830 4.860 ;
+    END
+  END i1
+  PIN q
+    ANTENNADIFFAREA 1.157200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 5.230 1.570 5.490 5.430 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.210 1.910 0.470 5.430 ;
+        RECT 2.625 5.090 4.630 5.430 ;
+        RECT 1.970 3.890 3.015 4.230 ;
+        RECT 1.970 1.910 2.230 3.890 ;
+        RECT 4.370 1.910 4.630 5.090 ;
+        RECT 0.210 1.570 2.230 1.910 ;
+        RECT 2.625 1.570 4.630 1.910 ;
+  END
+END mux2_x1
+END LIBRARY
+

@@ -1,0 +1,46 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO buf_x1
+  CLASS BLOCK ;
+  FOREIGN buf_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 4.280 BY 7.430 ;
+  PIN vdd
+    ANTENNADIFFAREA 2.017000 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 3.850 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 3.420 7.000 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 1.929000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 3.420 1.340 ;
+    END
+  END vss
+  PIN i
+    ANTENNAGATEAREA 0.492800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 1.570 0.960 5.430 ;
+    END
+  END i
+  PIN q
+    ANTENNADIFFAREA 1.157200 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.030 1.570 2.290 5.430 ;
+    END
+  END q
+  OBS
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+  END
+END buf_x1
+END LIBRARY
+

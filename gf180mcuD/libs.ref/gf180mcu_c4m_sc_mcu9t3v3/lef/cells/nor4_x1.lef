@@ -1,0 +1,64 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO nor4_x1
+  CLASS BLOCK ;
+  FOREIGN nor4_x1 ;
+  ORIGIN 0.430 0.000 ;
+  SIZE 5.420 BY 7.430 ;
+  PIN vss
+    ANTENNADIFFAREA 4.165800 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.000 0.000 4.560 1.340 ;
+    END
+  END vss
+  PIN vdd
+    ANTENNADIFFAREA 2.453800 ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.430 3.400 4.990 7.430 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.660 4.560 7.000 ;
+    END
+  END vdd
+  PIN nq
+    ANTENNADIFFAREA 2.863000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.410 2.910 3.670 5.430 ;
+        RECT 1.025 1.570 3.670 2.910 ;
+    END
+  END nq
+  PIN i0
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.210 1.570 0.470 5.430 ;
+    END
+  END i0
+  PIN i1
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.170 3.140 1.430 5.430 ;
+    END
+  END i1
+  PIN i2
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.970 3.140 2.230 5.430 ;
+    END
+  END i2
+  PIN i3
+    ANTENNAGATEAREA 1.106000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.770 3.140 3.030 5.430 ;
+    END
+  END i3
+END nor4_x1
+END LIBRARY
+

@@ -1,0 +1,7 @@
+* NGSPICE file created from gf180mcu_as_sc_mcu7t3v3__decap_4.ext - technology: gf180mcuD
+
+.subckt gf180mcu_as_sc_mcu7t3v3__decap_4 VDD VNW VPW VSS
+X0 a_126_408# a_28_500# VSS VPW nfet_03v3 ad=0.44p pd=2.88u as=0.49p ps=2.98u w=1u l=1.03u
+X1 VDD a_126_408# a_28_500# VNW pfet_03v3 ad=0.4752p pd=3.04u as=0.5292p ps=3.14u w=1.08u l=1.03u
+.ends
+

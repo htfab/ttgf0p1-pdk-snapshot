@@ -1,0 +1,7 @@
+* NGSPICE file created from gf180mcu_as_sc_mcu7t3v3__tieh_4.ext - technology: gf180mcuD
+
+.subckt gf180mcu_as_sc_mcu7t3v3__tieh_4 VDD VNW VPW VSS ONE
+X0 a_112_319# a_112_319# VSS VPW nfet_03v3 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=0.28u
+X1 ONE a_112_319# VDD VNW pfet_03v3 ad=0.6072p pd=3.64u as=0.6072p ps=3.64u w=1.38u l=0.28u
+.ends
+

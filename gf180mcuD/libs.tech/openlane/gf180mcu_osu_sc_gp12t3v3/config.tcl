@@ -37,8 +37,8 @@ set ::env(SYNTH_TIELO_PORT) "$::env(STD_CELL_LIBRARY)__tiel Y"
 set ::env(PL_LIB) $::env(LIB_TYPICAL)
 
 # Fillcell insertion
-set ::env(FILL_CELL) "$::env(STD_CELL_LIBRARY)__fill_*"
-set ::env(DECAP_CELL) "$::env(STD_CELL_LIBRARY)__fill_*"
+set ::env(FILL_CELL) "$::env(STD_CELL_LIBRARY)__fill_1 $::env(STD_CELL_LIBRARY)__fill_4 $::env(STD_CELL_LIBRARY)__fill_8 $::env(STD_CELL_LIBRARY)__fill_16"
+set ::env(DECAP_CELL) "$::env(STD_CELL_LIBRARY)__fill_1 $::env(STD_CELL_LIBRARY)__fill_4 $::env(STD_CELL_LIBRARY)__fill_8 $::env(STD_CELL_LIBRARY)__fill_16"
 
 # Diode Insertion
 # A fake diode has to be created, for now don't use any strategy that uses fake diode

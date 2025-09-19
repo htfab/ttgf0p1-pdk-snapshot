@@ -37956,7 +37956,7 @@ m0 d1 g s1 b pfet_06v0 w='w' l='l' as=as ad=ad ps=ps pd=pd nrd=nrd nrs=nrs nf=nf
 +tempmod = 0                   permod = 1                    geomod = 1                    
 ***** Geometry Range Parameter ***
 +lmin = 0.5e-6                lmax = 50.01e-6               wmin = 0.3e-6                      
-+wmax = 100.01e-6                      
++wmax = 120.01e-6                      
 ***** Process Parameter ***
 +epsrox = 3.9                  toxe = '1.56E-8+pfet_06v0_dtox' xj = 1.5E-7                   
 +ndep = 1.7E17                 ngate = 3.6E19                nsd = 6E16                    
